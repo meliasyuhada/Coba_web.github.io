@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sastra Explorer</title>
+    <link rel="stylesheet"  href="style1.css">
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Sastra <span>Explorer</span></a>
+        <ul class="navigaion">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#testomonials">Testomonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Ngeblog Yuk</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam aliquid possimus quasi, rem quis, facere quia ex doloribus ipsum culpa suscipit odio et adipisci officia. Cum pariatur consequatur veritatis minima.</p>
+        <a href="#" class="btn">Let Go</a>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        }); 
+    </script>
+</body>
+</html>
